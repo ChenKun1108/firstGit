@@ -1,9 +1,10 @@
 package com.pinyougou.pojo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TbTypeTemplateExample {
+public class TbTypeTemplateExample implements Serializable {
     protected String orderByClause;
 
     protected boolean distinct;
