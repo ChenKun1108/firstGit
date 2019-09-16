@@ -92,6 +92,12 @@
             <artifactId>pinyougou-common</artifactId>
             <version>0.0.3-SNAPSHOT</version>
         </dependency>
+        <!-- avtiveMq消息中间件依赖坐标 -->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+            <version>5.13.4</version>
+        </dependency>
     </dependencies>
 
 

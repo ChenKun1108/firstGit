@@ -105,11 +105,26 @@
             <artifactId>pinyougou-common</artifactId>
             <version>0.0.3-SNAPSHOT</version>
         </dependency>
-        <dependency>
+
+        <!--使用mq activ移除搜索服务接口依赖-->
+    <!--    <dependency>
             <groupId>com.pinyougou</groupId>
             <artifactId>pinyougou-search-interface</artifactId>
             <version>0.0.3-SNAPSHOT</version>
+        </dependency>-->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+            <version>5.13.4</version>
         </dependency>
+
+
+        <!--使用mq activ移除页面生成接口依赖-->
+       <!-- <dependency>
+            <groupId>com.pinyougou</groupId>
+            <artifactId>pinyougou-page-interface</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
+        </dependency>-->
     </dependencies>
 
 
